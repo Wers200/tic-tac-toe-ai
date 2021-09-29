@@ -1,0 +1,128 @@
+.buttonwrapper {
+    display: flex;
+    gap: 12px;
+}
+  
+.popupbtn {
+    width: 80px;
+    height: 80px;
+    font-size: 0;
+    line-height: 0;
+    padding: 0;
+}
+  
+.cornerbtn {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 64px;
+    height: 64px;
+    font-size: 0;
+    line-height: 0;
+    padding: 0;
+}
+  
+.title {
+    font-weight: 700;
+    font-size: 48px;
+    color: #2e2e2e;
+}
+  
+.subtitle {
+    font-weight: 600;
+    font-size: 32px;
+    color: #585858;
+    margin-bottom: 10px;
+}
+  
+.xobutton {
+    width: 150px;
+    height: 150px;
+    line-height: 0;
+    font-size: 0;
+    padding: 0;
+    border-radius: 0;
+    background-color: #ccc;
+    border: #aaa 2px solid;
+    transition: background-color 300ms;
+}
+  
+.xobutton:hover {
+    background-color: #d7d7d7;
+}
+  
+.xobutton:active {
+    background-color: #e5e5e5;
+}
+  
+.xobutton.notallowed {
+    background-color: #ccc;
+    border: #aaa 2px solid;
+    cursor: not-allowed;
+}
+  
+.xobutton:disabled {
+    background-color: #ccc;
+    border: #aaa 2px solid;
+    cursor: not-allowed;
+}
+  
+.xobutton.overlayed {
+    background-color: #cdcdcd;
+    border: #b7b7b7 2px solid;
+}
+  
+.xoicon {
+    opacity: 1;
+}
+  
+.xobutton.overlayed .xoicon {
+    opacity: 0.3;
+}
+  
+.xocontainer {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.xotable {
+    display: grid;
+    margin-bottom: 30px;
+    grid-template-columns: 150px 150px 150px;
+}
+  
+.xomenu {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 150px 150px;
+}
+  
+.xoscore {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+  
+.xomenubutton {
+    background-color: #999;
+    width: fit-content;
+}
+  
+.xomenubutton:hover {
+    background-color: #aaa;
+}
+  
+.xomenubutton:active {
+    background-color: #b5b5b5;
+}
+  
+.transparent {
+    background-color: transparent;
+    transition: none;
+}
+  
+.transparent:hover {
+    background-color: transparent;
+}
